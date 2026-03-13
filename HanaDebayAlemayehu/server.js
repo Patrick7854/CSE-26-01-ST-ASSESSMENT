@@ -15,6 +15,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // app.use(express.static(path.join(__dirname, 'views')));
+
+// Mount the user routes here
 app.use('/api/users', userRoutes);
 
 
