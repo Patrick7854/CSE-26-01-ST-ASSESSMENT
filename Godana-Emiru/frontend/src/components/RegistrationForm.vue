@@ -118,13 +118,13 @@ const submitForm = async () => {
 .registration-layout {
   display: flex;
   min-height: 100vh;
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Left Panel Styling */
 .left-panel {
   flex: 1;
-  background-color: #97C73A;
+  background-color: #99CC32;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,7 +154,7 @@ const submitForm = async () => {
 }
 
 .form-title {
-  color: #3B5B28;
+  color: #385723;
   font-size: 1.8rem;
   margin-bottom: 30px;
   text-align: center;
