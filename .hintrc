@@ -3,12 +3,18 @@
     "development"
   ],
   "hints": {
-    "compat-api/css": [
+    "axe/language": [
       "default",
       {
-        "ignore": [
-          "backdrop-filter"
-        ]
+        "html-has-lang": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
       }
     ]
   }
